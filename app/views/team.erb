@@ -9,6 +9,8 @@
     <br>
     <h1><%=@team.motto%></h1>
     <br>
+    <%@members.each do |member| %>
+    <%end%>
     <h1><%=@member.first.name%></h1>
     <p>Hero Power: <%=@member.first.power%></p>
     <p>Hero Biography: <%=@member.first.bio%></p>

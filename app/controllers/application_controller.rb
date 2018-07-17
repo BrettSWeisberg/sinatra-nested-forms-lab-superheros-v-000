@@ -13,7 +13,7 @@ class App < Sinatra::Base
 
         @team = Team.new(params[:team])
         @members = []
-        raise params.inspect
+        #raise params.inspect
         params[:members].each do |details|
           @members << Member.new(details)
         end

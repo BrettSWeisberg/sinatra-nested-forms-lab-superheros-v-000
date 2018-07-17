@@ -12,17 +12,17 @@
     <%@members.each do |member| %>
 
     <h1><%=member.first.name%></h1>
-    <p>Hero Power: <%=member.first.power%></p>
-    <p>Hero Biography: <%=member.first.bio%></p>
+    <p>Hero Power: <%=member.power%></p>
+    <p>Hero Biography: <%=member.bio%></p>
     <%pry.binding%>
     <br>
-    <h1><%=member[1].name%></h1>
-    <p>Hero Power: <%=member[1].power%></p>
-    <p>Hero Biography: <%=member[1].bio%></p>
+    <h1><%=member.name%></h1>
+    <p>Hero Power: <%=member.power%></p>
+    <p>Hero Biography: <%=member.bio%></p>
     <br>
     <h1><%=member.last.name%></h1>
-    <p>Hero Power: <%=member.last.power%></p>
-    <p>Hero Biography: <%=member.last.bio%></p>
+    <p>Hero Power: <%=member.power%></p>
+    <p>Hero Biography: <%=member.bio%></p>
     <%end%>
   </body>
 </html>

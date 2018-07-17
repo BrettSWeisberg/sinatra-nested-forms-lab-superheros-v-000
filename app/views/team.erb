@@ -10,18 +10,18 @@
     <h1><%=@team.motto%></h1>
     <br>
     <%@members.each do |member| %>
-    <%end%>
-    <h1><%=@member.first.name%></h1>
-    <p>Hero Power: <%=@member.first.power%></p>
-    <p>Hero Biography: <%=@member.first.bio%></p>
-    <br>
-    <h1><%=@member[1].name%></h1>
-    <p>Hero Power: <%=@member[1].power%></p>
-    <p>Hero Biography: <%=@member[1].bio%></p>
-    <br>
-    <h1><%=@member.last.name%></h1>
-    <p>Hero Power: <%=@member.last.power%></p>
-    <p>Hero Biography: <%=@member.last.bio%></p>
 
+    <h1><%=member.first.name%></h1>
+    <p>Hero Power: <%=member.first.power%></p>
+    <p>Hero Biography: <%=member.first.bio%></p>
+    <br>
+    <h1><%=member[1].name%></h1>
+    <p>Hero Power: <%=member[1].power%></p>
+    <p>Hero Biography: <%=member[1].bio%></p>
+    <br>
+    <h1><%=member.last.name%></h1>
+    <p>Hero Power: <%=member.last.power%></p>
+    <p>Hero Biography: <%=member.last.bio%></p>
+    <%end%>
   </body>
 </html>
